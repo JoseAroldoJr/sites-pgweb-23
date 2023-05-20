@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="português">
+<head>
+  <title>Busca de filmes</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <h1>MSB</h1>
+  <form id="formBusca">
+    <input name="buscar" placeholder="Digite o nome do filme Ex: Spider-Man">
+    <button class="botaoPesq">
+      <img src="lupa.png" alt="buscar">
+    </button>
+  </form>
+  <br>
+  <p class="aviso">
+    ATENÇÃO: a busca de filmes só funciona em inglês, caso você não saiba o nome do filme em inglês, digite o nome na caixa abaixo<br>
+    e você será levado a uma página do Google onde o primeiro link será o nome do filme em inglês.
+  </p>
+  <br>
+  <form id="formTraducao">
+    <input name="buscar2" placeholder="Digite o nome em português Ex: Homem Aranha">
+    <button class="botaoPesq2">
+      <img src="lupa.png" alt="buscar tradução">
+    </button>
+  </form>
+
+  <div id="movieList" class="movieList"></div> 
+  <button id="mostraMaisBtn" class="btnMostraMais">Mostrar Mais</button>
+  <script src="script.js"></script>
+</body>
+</html>
+
+D:\VS Codes\html_css_js\sites_pgweb\siteComAPI\index.html
