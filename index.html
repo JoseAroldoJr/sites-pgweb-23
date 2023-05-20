@@ -4,70 +4,57 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <title>Meu Currículo/Portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #162A3E;
-      color: #fff;
-      padding: 20px;
-    }
-
-    h1 {
-      margin: 0;
-      font-size: 28px;
-    }
-
-    .contact {
-      margin-top: 10px;
-      font-size: 16px;
-    }
-
-    section {
-      padding: 20px;
-      border-bottom: 1px solid #ccc;
-    }
-
-    h2 {
-      margin: 0;
-      font-size: 24px;
-    }
-
-    p {
-      margin-top: 10px;
-      font-size: 16px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Seu Nome</h1>
+    <h1>Olá, me chamo José Aroldo, este é meu currículo online</h1>
     <div class="contact">
-      <li>Email: <a href="jose.2020110977@unicap.br">jose.2020110977@unicap.br</a></li>
-      <li>Facebook: <a href="https://github.com/JoseAroldoJr">https://github.com/JoseAroldoJr</a></li>
+      <li><i class="far fa-envelope-open-text"></i> Email: <a href="jose.2020110977@unicap.br">jose.2020110977@unicap.br</a></li>
+      <li><i class="fab fa-github"></i> Github: <a href="https://github.com/JoseAroldoJr">https://github.com/JoseAroldoJr</a></li>
     </div>
   </header>
 
   <section>
-    <h2>Sobre Mim</h2>
-    <p>Aqui você pode falar um pouco sobre si mesmo, sua experiência, formação acadêmica, objetivos profissionais, etc.</p>
+    <h2 class="about">SOBRE MIM</h2>
+    <p>Me chamo José Aroldo, tenho 22 anos, atualmente estudo ciências da computação
+      na Unicap e gosto bastante de esportes e competições.
+    </p>
   </section>
 
   <section>
-    <h2>Habilidades</h2>
-    <p>Aqui você pode listar as habilidades que você domina, como por exemplo: habilidades técnicas, conhecimentos em softwares, idiomas, etc.</p>
-  </section>
-
-  <section>
-    <h2>Projetos</h2>
-    <ul>
-      <li><a href="\siteComAPI\index.html">site de filmes</a></li>
+    <h2 class="abilities">HABILIDADES</h2>
+    <p>As tecnologias que domino estão representadas pelos ícones abaixo:</p>
+    <ul class="icon-list">
+      <li><i class="fab fa-java"></i> Java</li>
+      <li><i class="fab fa-html5"></i> HTML5</li>
+      <li><i class="fab fa-css3-alt"></i> CSS3</li>
+      <li><i class="fas fa-database"></i> SQL</li>
+      <li><i class="fab fa-js"></i> JavaScript</li>
     </ul>
   </section>
+
+  <section>
+    <h2 class="projects">PROJETOS</h2>
+    <ul class="project-list">
+      <li>
+        <p>Site de busca de filmes (clique na imagem para acessar)</p>
+        <a href="/siteComAPI/index.html">
+          <img class="project-image" src="imagemdositeapi.png" alt="Site de busca de filmes">
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    <blockquote class="quotation">
+      "Design is not my passion" - José Aroldo
+    </blockquote>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
